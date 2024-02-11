@@ -95,13 +95,12 @@ textarea {
 footer {
   width: 100%;
   font-size: 15px;
-  margin-top: 20px;
   margin-left: 20px;
   display: flex;
   justify-content: end;
 }
 footer p {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 footer span {
@@ -138,7 +137,6 @@ footer span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
 }
 
 .btn-container p {

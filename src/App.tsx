@@ -1,17 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from 'react';
-{"userId":"number","id":"number","title":"string","body":"string"}
 
 function App() {
-  const user: User = {
-    id: 0,
-    email: 'pedro',
-    first_name: 'losa',
-    last_name: 'pla',
-    avatar: 'kartossss',
-  };
-
-  console.log(user);
-
   const [jsonMessage, setJsonMessage] = useState('');
   const [result, setResult] = useState<null | object>(null);
   const [error, setError] = useState('');
