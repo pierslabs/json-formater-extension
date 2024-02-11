@@ -1,0 +1,146 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  min-width: 400px;
+}
+main {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10, 15;
+  background-color: #19488a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 130px;
+  height: 40px;
+}
+.btn:hover {
+  border-color: #646cff;
+}
+.btn:focus,
+.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.img {
+  width: 130px;
+  height: 40px;
+  background-color: #19488a;
+}
+
+textarea {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 350px;
+  padding: 20px;
+  height: 200px;
+  background-color: #2b2b2b;
+}
+
+.resultContainer {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 350px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2b2b2b;
+  margin-top: 10px;
+}
+
+.resultContainer span {
+  color: #3ebcfb;
+}
+.brackets {
+  color: #ffe100;
+}
+
+.span {
+  color: #00aa60;
+}
+
+.interfaceTitle {
+  color: #1ad298;
+  font-size: 15px;
+}
+
+.interfaceBody {
+  color: #e1dede;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.interfaceBody span {
+  color: #9ff7fd;
+  text-decoration: none;
+}
+
+.interfaceBody p {
+  color: #fb0000;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: end;
+}
+footer p {
+  margin-right: 20px;
+}
+
+footer span {
+  color: #1a7fd2;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.copy-btn {
+  border-radius: 8px;
+  border: 1px solid #484848;
+  padding: 5px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #2b2b2b;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.copy-img {
+  padding: 10;
+  width: 25px;
+  max-height: 25px;
+  background-color: #2b2b2b;
+}
+
+.copy-btn:hover {
+  border-color: #656565;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-container p {
+  font-size: 15px;
+}

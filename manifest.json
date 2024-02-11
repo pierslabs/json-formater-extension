@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Json interfaces creator",
+  "version": "1.0.0",
+  "description": "Create interfaces from Json objects",
+  "author": "Pedro Losas",
+  "icons": {
+    "128": "json.ico"
+  },
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": "json.ico"
+  }
+}
